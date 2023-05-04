@@ -1,0 +1,51 @@
+/*Por elemento
+p {
+    color: green;
+}
+*/
+/*Class
+.p {
+    color: red;
+}
+*/
+/*ID
+#texto {
+    color: blue;
+}
+*/
+img {
+    height: 300px;
+}
+.kitty {
+    width: 1000px;
+}
+#hello {
+    font-size: 25pt;
+    color: seagreen;
+    text-decoration: underline;
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*Pseudo clases*/
+.main-nav__item a:hover {
+    color: blue;
+}
+.main-nav__item a:active {
+    color: red;
+}
+/*Pseudo elementos*/
+.main-nav__item a::after {
+    content: " | ";
+}
