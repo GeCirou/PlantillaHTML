@@ -1,18 +1,43 @@
 /*Por elemento
 p {
     color: green;
-}
-*/
+}*/
 /*Class
 .p {
     color: red;
-}
-*/
+}*/
 /*ID
 #texto {
     color: blue;
+}*/
+/*Se puede usar calc para márgenes
+.caja_hijo {
+    width: calc(50% - 20px);
+}*/
+/*Para que las cajas queden en pantalla
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-*/
+main {
+    width: 100%;
+}*/
+/*Truco para uso de rem
+Esto permite usar los rem como pixeles.
+cada rem son 10px
+html {
+    font-size: 62.5%;
+}
+p {
+    font-size: 1.6rem
+}*/
+/*Variables
+:root {
+    --nombreVariable: atributo;
+}
+se llama con var(--nombreVariable);*/
+
 img {
     height: 300px;
 }
