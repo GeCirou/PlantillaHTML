@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: white;
+    display: grid;
+    /* grid-template-rows: minmax(30px, 3fr) min-content minmax(60px, 2fr); fr es fracción, una unidad de medida que es en partes proporcionales. min-content adapta al tamaño minimo del contenido */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.contenedor-2 {
+    border: 5px solid #e1bee7;
+    background-color: white;
+    display: grid;
+    /* grid-template-columns: minmax(30px, 3fr) min-content minmax(60px, 2fr); fr es fracción, una unidad de medida que es en partes proporcionales. min-content adapta al tamaño minimo del contenido */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}

@@ -1,3 +1,10 @@
+/*Orden dentro de la regla:
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros*/
+
 /*Por elemento
 p {
     color: green;

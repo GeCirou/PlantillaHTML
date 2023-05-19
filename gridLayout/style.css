@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px; */
+    grid-template-columns: 150px 150px 150px; /* crea 3 columnas con tamaño definido */
+    grid-auto-rows: 150px; /* define automaticamente el tamaño de las filas */
+    /* grid-auto-flow: column; define como rellena automaticamente la grilla */
+    /* row-gap: 15px;
+    column-gap: 30px; */ /* define espaciado de fila o columna */
+    gap: 15px; /* da un espaciado uniforme */
+    height: 600px;
+    justify-content: center; /* centra la grilla horizontalmente */
+    align-content: center; /* centra la grilla verticalmente */
+    /* place-content: center; alinea en la vertical y la horizontal */
+    justify-items: end; /* acomoda cada item de la grilla dentro de su celda de manera horizontal */
+    align-items: start; /* acomoda cada item de la grilla dentro de su celda de manera vertical */
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+
+.item-2 {
+    justify-self: start;
+    align-self: end;
+}
